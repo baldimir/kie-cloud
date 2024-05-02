@@ -1,0 +1,34 @@
+/target
+/local
+target/
+
+# bats
+bats/*
+
+# Eclipse, Netbeans and IntelliJ files
+/.*
+!.gitignore
+!.github
+!.ci
+/nbproject
+/*.ipr
+/*.iws
+*.iml
+*/*.iml
+.idea/
+
+# Repository wide ignore mac DS_Store files
+.DS_Store
+
+# Original jbpm ignores
+*~
+
+# Test info
+/settings*.xml
+/lib-jdbc/
+*.db
+*.tlog
+
+# python
+scripts/__pycache__
+
